@@ -1,0 +1,7 @@
+
+Buffer
+https://askubuntu.com/questions/699527/instalation-of-virtualbox-guest-dkms-fails
+
+
+cat /etc/apt/sources.list
+
