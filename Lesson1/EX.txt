@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=$1
+
+if [$name = ""]
+then
+echo "You did not enter name... So... Hello, Anonymous!!!"
+else
+echo "Hello, $name"
+fi
