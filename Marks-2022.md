@@ -27,14 +27,11 @@
 	
 	Thanks for your persistence and curiosity (=
 	
-	
-	
 	90 A
 	82 B
 	75 C
 	64 D
 	60 E
-	
 -->
 
 Олег Балясний
@@ -45,12 +42,12 @@
 |Name					|+|+|+|+...	|130|32+|+++++++++| 
 |Андрей Щочка			| | | | |	||+|	cpp - Crash Bandicoot
 |Прусан Игорь			| | | | |	||+|	java - Riki Martin
-|Веселовська Анастасия	| | | | |	||+|	
-|Дмитраш Таня 			| | | | |	||+|	grost_player+++			EnigmaMaster
-|Инна Лемешко			| | | | |	||+| LIS - Multi
-|Юдин Андрей			| | | | |	||+| X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
-|Патика Данила			| | | | |	||+|	LoneSamurai				EnigmaMaster+++		EBO + Texures + Sampling + Blur
-|Александр Новиков		| | | | |	||+| 0_- - ^-^
+|Веселовська Анастасия	|+(100)| | | |	||+|	
+|Дмитраш Таня 			|+(100)| | | |	||++|	grost_player+++			EnigmaMaster
+|Инна Лемешко			|+(100)| | | |	||+| LIS - Multi
+|Юдин Андрей			|+(100)| | | |	||++| X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
+|Патика Данила			|+(100)| | | |	||++|	LoneSamurai				EnigmaMaster+++		EBO + Texures + Sampling + Blur
+|Александр Новиков		| | | | |	||++| 0_- - ^-^
 |Юлия Олийник			| | | | |	||+| Python
 |Репіна Марія			| | | | |	||+|							EnigmaMaster-
 |Сульська Ліна 			| | | | |	||+| _Володимирівна_?
@@ -59,7 +56,7 @@
 |Кожан Анастасия		| | | | |	||+|
 |Николай Гуливец		| | | | |	||+|
 |Кузьменко Анастасія	| | | | |	||+|
-
+|Олег Балясний			| | | | |	||++| + Invalid partition table ?
 
   
 
@@ -67,11 +64,11 @@
 |Name|1|2|3|4|__100%__|32 scores|note|
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |Name		|+|+|+|+ + + + + ...	|		130		|32+|+++++++++|
-|Сергей Каруна		| | | | |	||+|		GRAY					EnigmaMaster
+|Сергей Каруна		|+(100)| | | |	||+|		GRAY					EnigmaMaster
 |Егор Ильяшенко		|+(100)|+(100)| | | 	||+| - git vitall					EnigmaMaster-
-|Максим Блажко		| | | | |	||+| MOB							EnigmaMaster
-|Ярослав Горшков	| | | | |	||+|								EnigmaMaster+++
-|Антон Дидковский	| | | | |	||+|			grost_player - Ta
+|Максим Блажко		|+(100)| | | |	||+| MOB							EnigmaMaster
+|Ярослав Горшков	|+(100)| | | |	||+|								EnigmaMaster+++
+|Антон Дидковский	|+(100)| | | |	||+|			grost_player - Ta
 |Лапко Євгенія		| | | | |	||+|	
 |Щусь Деніс			| | | | |	||+|	
 
@@ -83,10 +80,10 @@
 |Сергей Москаленко	| | | | |	||+|								EnigmaMaster+++
 |Мария Чекмасова 	| | | | |	||+|
 |Филипенко Дмитрий	| | | | |	||+|
-|Алина Митолап		| | | | |	||+|	MITOLAPKA					EnigmaMaster+++
+|Алина Митолап		|+(100)|+(100)| | |	||+|	MITOLAPKA					EnigmaMaster+++
 |Дарина Третьякова 	| | | | |	||+| 	OwlWise						EnigmaMaster
 |Черненко Валерий	| | | | |	||+|
-|Миша Овсов			| | | | |	||+|
+|Миша Овсов			|+(100)| | | |	||+|
 |Демьян Радевич		| | | | |	||+|
 |Илья Зновенко 		| | | | |	||+|
 ```

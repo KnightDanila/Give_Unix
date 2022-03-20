@@ -1,16 +1,19 @@
 SomePlan
 
-1. Linux
+1,2. 
+Linux
 Файлові системи та таблиці розділів дисків
 GRUB — загрузчик операційної системи
+
+3.
+Віртуальні машини та Virtual Box, VMWare, QEMU та інші - Встановлення Virtual Box та Linux
 
 1.
 Історія версії та основні харктеристики ОС UNIX
 
 2.
 OpenSource і віртуальні машини - установка Linux
-3.
-Virtual Box та QEMU - встановлення Linux
+
 4.
 Настройка линукс на виртуальной машине и начало установки на флешку
 5.
@@ -85,3 +88,17 @@ https://www.youtube.com/watch?v=XQ9LgtsDg7w&list=PLrCZzMib1e9pOdLmE2qtMgL3QMEIrx
 
 https://awesomeopensource.com/
 https://alternativeto.net/
+
+
+OpenSource - ресурсы программы лицензии
+
+LINUX VS UNIX - В ЧЕМ РАЗНИЦА?
+https://wiki.merionet.ru/servernye-resheniya/84/linux-vs-unix-v-chem-raznica/
+
+
+size of pointers 32 and 64
+
+
+Life CD
+Standalone
+
