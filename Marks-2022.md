@@ -45,10 +45,10 @@
 |Андрей Щочка			| | | | |	||+|	cpp - Crash Bandicoot
 |Прусан Игорь			| | | | |	||+|	java - Riki Martin
 |Веселовська Анастасия	|+(100)| | | |	||+|	
-|Дмитраш Таня 			|+(100)| | | |	||++|	grost_player+++			EnigmaMaster
+|Дмитраш Таня 			|+(100)|+(100)| | |	||++|	grost_player+++			EnigmaMaster
 |Инна Лемешко			|+(100)| | | |	||+| LIS - Multi
-|Юдин Андрей			|+(100)| | | |	||++| X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
-|Патика Данила			|+(100)| | | |	||++|	LoneSamurai				EnigmaMaster+++		EBO + Texures + Sampling + Blur
+|Юдин Андрей			|+(100)|+(100)| | |	||++| X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
+|Патика Данила			|+(100)|+(100)| | |	||++|	LoneSamurai				EnigmaMaster+++		EBO + Texures + Sampling + Blur
 |Александр Новиков		| | | | |	||++| 0_- - ^-^
 |Юлия Олийник			| | | | |	||+| Python
 |Репіна Марія			| | | | |	||+|							EnigmaMaster-
@@ -69,7 +69,7 @@
 |Сергей Каруна		|+(100)| | | |	||+|		GRAY					EnigmaMaster
 |Егор Ильяшенко		|+(100)|+(100)| | | 	||+| - git vitall					EnigmaMaster-
 |Максим Блажко		|+(100)| | | |	||+| MOB							EnigmaMaster
-|Ярослав Горшков	|+(100)| | | |	||+|								EnigmaMaster+++
+|Ярослав Горшков	|+(100)|+(100)| | |	||+|								EnigmaMaster+++
 |Антон Дидковский	|+(100)| | | |	||+|			grost_player - Ta
 |Лапко Євгенія		| | | | |	||+|	
 |Щусь Деніс			| | | | |	||+|	
@@ -82,7 +82,7 @@
 |Сергей Москаленко	| | | | |	||+|								EnigmaMaster+++
 |Мария Чекмасова 	| | | | |	||+|
 |Филипенко Дмитрий	| | | | |	||+|
-|Алина Митолап		|+(100)|+(100)| | |	||+|	MITOLAPKA					EnigmaMaster+++
+|Алина Митолап		|+(100)|+(100)|+(100)| |	||+|	MITOLAPKA					EnigmaMaster+++
 |Дарина Третьякова 	| | | | |	||+| 	OwlWise						EnigmaMaster
 |Черненко Валерий	| | | | |	||+|
 |Миша Овсов			|+(100)|+(100)| | |	||+|
