@@ -44,7 +44,7 @@
 |Name					|+|+|+|+...	|130|32+|+++++++++| 
 |Андрей Щочка			| | | | |	||+|	cpp - Crash Bandicoot
 |Прусан Игорь			| | | | |	||+|	java - Riki Martin
-|Веселовська Анастасия	|+(100)| | | |	||+|	
+|Веселовська Анастасия	|+(100)|+(100)| | |	||+|	
 |Дмитраш Таня 			|+(100)|+(100)| | |	||++|	grost_player+++			EnigmaMaster
 |Инна Лемешко			|+(100)| | | |	||+| LIS - Multi
 |Юдин Андрей			|+(100)|+(100)| | |	||++| X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
@@ -70,7 +70,7 @@
 |Егор Ильяшенко		|+(100)|+(100)| | | 	||+| - git vitall					EnigmaMaster-
 |Максим Блажко		|+(100)| | | |	||+| MOB							EnigmaMaster
 |Ярослав Горшков	|+(100)|+(100)| | |	||+|								EnigmaMaster+++
-|Антон Дидковский	|+(100)| | | |	||+|			grost_player - Ta
+|Антон Дидковский	|+(100)|+(100)|+(100)|+(100)|	||+|			grost_player - Ta
 |Лапко Євгенія		| | | | |	||+|	
 |Щусь Деніс			| | | | |	||+|	
 
@@ -82,10 +82,10 @@
 |Сергей Москаленко	| | | | |	||+|								EnigmaMaster+++
 |Мария Чекмасова 	| | | | |	||+|
 |Филипенко Дмитрий	| | | | |	||+|
-|Алина Митолап		|+(100)|+(100)|+(100)| |	||+|	MITOLAPKA					EnigmaMaster+++
+|Алина Митолап		|+(100)|+(100)|+(100)|+(100)|	||+|	MITOLAPKA					EnigmaMaster+++
 |Дарина Третьякова 	| | | | |	||+| 	OwlWise						EnigmaMaster
 |Черненко Валерий	| | | | |	||+|
-|Миша Овсов			|+(100)|+(100)| | |	||+|
+|Миша Овсов			|+(100)|+(100)|+(100)| |	||+|
 |Демьян Радевич		| | | | |	||+|
 |Илья Зновенко 		| | | | |	||+|
 ```
