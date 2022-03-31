@@ -1,1 +1,1 @@
-# Unix & Linux OS - Lections
+# Unix & Linux OS - Lectures presentations and Labs
