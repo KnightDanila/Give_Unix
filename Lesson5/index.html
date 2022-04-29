@@ -213,24 +213,115 @@ and open the template in the editor.
 
                 <section>
                     <section>
-                        mkdir
+                        <h3>Linux, Win: mkdir</h3>
+                        <br>
+                        mkdir - MaKe directory
+                        <br>
+                        <img src="data/mkdir_Creates-a-directory-structure.gif" alt="" class="stretch plain"/>
                     </section>
                 </section>
                 <section>
                     <section>
-                        <h3>mkdir, touch, cat, man, wget</h3>
-                        for future
+                        <h3>Linux touch vs Win ???</h3>
+                        Linux: touch - make new file
+                        <pre style="white-space: pre-line;"><code>
+                            $ touch file.txt
+                        </code></pre>
+                        Win:
+                        <pre style="white-space: pre-line;"><code>
+                            $ type nul > file.txt
+                            $ copy nul > file.txt
+                            $ echo .> file.txt
+                            $ cd . > file.txt
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Linux, Win: echo</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            $ echo "Hello, Neo!"
+                            $ echo "Hi, there!" >> file.txt
+                        </code></pre>
+
+                        <img src="data/echo_linux.gif" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Linux: cat vs Win: type</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            $ touch file.txt
+                            $ echo "Hello, Neo!" >> file.txt
+                            $ cat file.txt
+                        </code></pre>
+                        <pre style="white-space: pre-line;"><code>
+                            $ type nul > file.txt
+                            $ echo "Hello, Neo!" > file.txt
+                            $ type file.txt
+                            $ start file.txt
+                        </code></pre>
+                        
+                        <img src="data/The_Matrix_Neo_Hello_Animated.gif" alt="" class="plain"/>
                     </section>
                 </section>
 
                 <section>
                     <section>
+                        <h3>Linux, Win: wget</h3>
+                        wget - download files from web
+                        Linux: 
+                        <pre style="white-space: pre-line;"><code>
+                            $ sudo apt-get install wget.
+                        </code></pre>
+                        <br>
+                        Win:
+                        <a href="https://eternallybored.org/misc/wget/">
+                            https://eternallybored.org/misc/wget/
+                        </a>
+                        <br>
+                        <br>
+                        OR:
+                        WinHTTrack
+                    </section>
+
+                    <section>
+                        <pre style="white-space: pre-line;"><code>
+                            wget -nd -r -P /storage -A jpeg,jpg,bmp,gif,png https://en.wikipedia.org/wiki/Borscht
+                        </code></pre>
+                        <pre style="white-space: pre-line;"><code>
+                            wget -e robots=off --span-hosts --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0" -nd -r -P /storage -A jpeg,jpg,bmp,gif,png https://en.wikipedia.org/wiki/Borscht
+                        </code></pre>
+                        <br>Here is some more information:
+                        <p style="text-align: left; font-size: x-large">
+                            <br>-nd - prevents the creation of a directory hierarchy (i.e. no directories).
+                            <br>-r - enables recursive retrieval. See Recursive Download for more information.
+                            <br>-P - sets the directory prefix where all files and directories are saved to.
+                            <br>-A - sets a whitelist for retrieving only certain file types. Strings and patterns are accepted, and both can be used in a comma separated list (as seen above). See Types of Files for more information.
+                        </p>
+
+
+                    </section>              
+                </section>
+                <section>
+                    <section>
+                        <h3>man</h3>
+                    </section>
+                </section>
+                <section>
+                    <section>
                         <h3>Links:</h3>
+                        <br>
                         <a target="_blank" href="https://ravesli.com/bazovye-komandy-v-linux-for-beginners/">
                             https://ravesli.com/bazovye-komandy-v-linux-for-beginners/
                         </a>
+                        <br>
                         <a target="_blank" href="https://ravesli.com/uroki-po-linux/">
                             https://ravesli.com/uroki-po-linux/
+                        </a>
+                        <br>
+                        <a target="_blank" href="https://ravesli.com/fun-linux-commands/">
+                            https://ravesli.com/fun-linux-commands/
                         </a>
                     </section>
                 </section>
