@@ -21,6 +21,11 @@ OpenSource і віртуальні машини - установка Linux
 Установка LINUX на флешку и настройка окружающей среды
 6.
 Линукс: типы установки ПО и свободные лицензии
+youtube-dl
+git
+ffmpeg
+waifu
+
 7.
 Линукс: Встановлення компіляторів та IDE
 8.
@@ -103,3 +108,11 @@ size of pointers 32 and 64
 Life CD
 Standalone
 
+
+
+pch.h
+constexpr
+
+std::istreambuf_iterator<char> it{fin}, end;//REMEMBER!
+	std::string s(it, end);
+	TxtInfo = std::move(s);
