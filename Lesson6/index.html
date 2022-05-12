@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
+        <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
+
+        <!--<link href="theme/iframeWebpagePreview/iframeWebpagePreview.css" rel="stylesheet" type="text/css"/>-->
+        <!--<script src="theme/iframeWebpagePreview/iframeWebpagePreview.js" type="text/javascript"></script>-->
+
+        <link href="../js/ClockJS/SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/ClockJS/SimpleTimer.js" type="text/javascript"></script>
+        <!--<link href="theme/xClose.css" rel="stylesheet" type="text/css"/>-->
+    </head>
+    <body id="MainPresentation">
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer1</div>
+
+        <div class="reveal">
+            <div class="slides">
+                <!--<section>
+                    Single Horizontal Slide
+                </section>-->
+                <!--<section>
+                        <section>Vertical Slide 1</section>
+                        <section>Vertical Slide 2</section>
+                </section>-->
+
+                <section>
+                    <h2>Fullscreen mode</h2>
+                    <p>
+                        Just press »F« on your keyboard to show your presentation in fullscreen mode. Press the »ESC« key to exit fullscreen mode.
+                    </p>
+                    <h2>Overview mode</h2>
+                    <p>
+                        Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides, as if you were at 1,000 feet above your presentation.
+                    </p>
+                </section>
+
+                <section>
+                    <br>
+                    <h3>
+                        Unix/Linux
+                    </h3>
+                    <img src="../data/Linux-Logo.png" alt="" class="stretch plain"/>
+                    <br>
+                    Lesson 6
+                    <br>
+                    <br>
+                    <div style="font-size: xx-large;">
+                        Author: Egoshkin Danila Igorevich
+                    </div>
+                </section>
+
+                <!--Topic N-->
+                <section>
+                    <section>
+                        <h3>Plan</h3>
+                        <div class="col-container">
+                            <ol class="col">
+                                <li>UX/UI (Stepanova N.I.)</li>
+                                <li>TUI (CLI)</li>
+                                <li>Bash scripts</li>
+                                <li>GUI</li>
+                                <li>Zenity</li>
+                            </ol>
+                            <img  src="data/PC_Hackerman (4).gif" alt="" class="col stretch plain"/>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>UX/UI (Stepanova N.I.)</h3>
+                        <img src="data/Code_Fun_UX_UI.png" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>TUI (CLI)</h3>
+                        TUI - Text user interface
+                        <br>
+                        CLI - Command line interface
+                        <br>
+                        <img src="data/Code_Fun_CG_LOTR.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>ASCII Art</h3>
+                        <pre style="white-space: pre-line;"><code>
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣠⡄⠄⠄⠄⠄⠄⠄⢠⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⢀⣴⣾⣿⣿⣿⣿⣶⣶⣶⣶⣶⣶⣿⣿⣿⣿⣷⣦⡀⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄
+⠄⠄⠄⠄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄
+⠄⠄⠄⣼⣿⣿⣿⣿⣿⡿⠿⠿⣿⣿⣿⣿⣿⣿⠿⠿⢿⣿⣿⣿⣿⣿⣧⠄⠄⠄
+⠄⠄⢠⣿⣿⣿⣿⣿⡟⠄⠄⠄⠈⣿⣿⣿⣿⠁⠄⠄⠄⢹⣿⣿⣿⣿⣿⡄⠄⠄
+⠄⠄⢸⣿⣿⣿⣿⣿⣇⠄⠄⠄⠄⣿⣿⣿⣿⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⡇⠄⠄
+⠄⠄⢸⣿⣿⣿⣿⣿⣿⣶⣤⣴⣾⣿⣿⣿⣿⣷⣦⣤⣶⣿⣿⣿⣿⣿⣿⣷⠄⠄
+⠄⠄⢸⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⡟⠄⠄
+⠄⠄⠄⠙⠻⢿⣿⣿⣷⡤⠈⠉⠉⠛⠛⠛⠛⠉⠉⠁⢤⣾⣿⣿⡿⠟⠉⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠈⠉⠻⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠟⠋⠁⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+</code></pre>
+                        https://www.twitchquotes.com/copypastas/ascii-art
+                        <br>
+                        https://knightdanila.github.io/HuskyAsciiVision/
+                        <br>
+                        https://en.wikipedia.org/wiki/ASCII_art
+                    </section>
+
+                    <section>
+                        <h3>ANSI art</h3>
+                        <img src="data/FILE_ID.ANS.png" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>TUI Now</h3>
+                        <br>
+                        Text-based game - Text Novels
+                        <br>
+                        Console in Portals
+                        <br>
+                        Console in Minecraft
+                        <br>
+                        Console in intellij
+                    </section>
+
+                    <section>
+                        Text-based game - Text Novels
+                        Roadwarden
+                        <img src="data/Roadwarden_NegativeZanyHochstettersfrog-size_restricted.gif" alt="" class="stretch plain"/>
+                        <br>Movie: Big 1988 (Tom Hanks)
+
+                    </section>
+
+                    <section>
+                        <h3>Movie: Big 1988 (Tom Hanks)</h3>
+                        <img src="data/Thanks_Tom.gif" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Movie: Big 1988 (Tom Hanks)</h3>
+                        <img src="data/7inch-LCD-Screen-Video-Book-Printing.jpg" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Win:Far and Lin:Midnight Commander</h3>
+                        <img src="data/Far.gif" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>TUI</h3>
+                        <img src="data/demo.gif" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Bash scripts</h3>
+                        Path?
+                        <pre style="white-space: pre-line;"><code>
+                            #!/bin/bash
+                            #!/bin/bin/bash
+                            #!/usr/bin/env bash
+                            #!/root/bash
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <h3>Bash scripts</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            #!/bin/bash
+                            # This is a comment
+                            pwd
+                            whoami | Win: hostname %username%
+                        </code></pre>
+
+                        <img src="data/HarryPotter_Remembrall_1.gif" alt="" class="stretch plain"/>
+                        <br>
+                        Reminder: chmod +x ./myscript
+                    </section>
+
+                    <section>
+                        <h3>Bash scripts</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            #!/bin/bash
+                            echo "$1 + $2 = $(($1 + $2))"
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Bash scripts</h3>
+                        <pre style="white-space: pre-line;"><code>
+                        T1='foo'
+                        T2='bar'
+                        if [[ $T1 == "$T2" ]] 
+                        then
+                          echo 'условие выполняется'
+                        else
+                          echo 'условие не выполняется'
+                        fi
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Bash scripts</h3>
+                        <pre style="white-space: pre-line;"><code>
+                        for i in "Номер "{1..10}
+                        do
+                            echo "$i"
+                        done
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Bash scripts</h3>
+                        <pre style="white-space: pre-line;"><code>
+                        declare -a arrAnimals
+                        arrAnimals=(dog elephant horse cow fox koala turtle)
+                        # Displaying the content of the array:
+                        echo "${arrAnimals[@]}"
+                        # Add a new element to the end of the arrAnimals array: "pig"
+                        arrAnimals+=(pig)
+                        # And again we show the contents of the array:
+                        echo "${arrAnimals[@]}"
+                        </code></pre>
+                    </section>
+                </section>
+                <!--Topic N-->
+                <section>
+                    <section>
+                        <h3>Zenity GUI</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            sudo apt-get install zenity
+                        </code></pre>
+                    </section>
+                    <section>
+                        <pre style="white-space: pre-line;"><code>
+                            zenity --info --title “Check zenity”
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <pre style="white-space: pre-line;"><code>
+                            chmod +x ./script.sh
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Ex1 User Name</h3> 
+                        <!--Юлия Дольникова-->
+                        <pre style="white-space: pre-line;"><code>
+                           #!/bin/bash 
+
+                            name=$(zenity --forms --title="Create a user" --text="Enter your data" \ 
+                            --add-entry="First Name" \ 
+                            --add-entry="Last Name") 
+
+                            if [ $? = 0 ]; then  
+
+                                echo "User full name: $name." 
+
+                                zenity --info --title="User full name" --text="$name" 
+
+                            else 
+
+                                echo "User hasn't enetered a name and pressed cancel." 
+
+                            fi 
+                    </code></pre>
+                    </section>
+                    <section>
+                        <h3>Ex2</h3>
+                        <pre style="white-space: pre-line;"><code>
+                           zenity --question --text "Do you want to add new contact?";echo $?
+                           zenity --forms --title="Add new Friend" --text="Enter information about your friend" \
+                           --separator=" , " --add-entry="First name" --add-entry="Last name" \
+                           --add-entry="Email" --add-calendar="Birthday"
+                    </code></pre>
+                    </section>
+                    <section>
+                        <h3>Ex3</h3>
+                        <!-- Мороз Антон-->
+                        <pre style="white-space: pre-line;"><code>
+                        #/bin/bash 
+                        value1=$(zenity --entry --title "Entry of a value" --text "Enter a value") #вводимо якись текст 
+
+                        value2=$(zenity --color-selection --title "Select a color") #обираємо колір 
+
+                        (zenity --info --text "you entered $value1 value and chosen $value2 color") #створюємо вікно виводу значень 
+                    </code></pre>
+                    </section>
+                    <section>
+                        <h3>Ex4</h3>
+                        <!-- Маковецкий Ростислав-->
+                        <pre style="white-space: pre-line;"><code>
+                        num=$(zenity --forms --title="Add Friend" \
+                        --text="Enter information about your friend." \
+                        --add-entry="First Name" \
+                        --add-entry="Family Name" \
+                        --add-calendar="Birthday " --forms-date-format='%Y-%m-%d' )
+
+                        fname=$(echo $num | awk 'BEGIN {FS="|"} {print $1}')
+                        sname=$(echo $num | awk 'BEGIN {FS="|"} {print $2}')
+                        bir=$(echo $num | awk 'BEGIN {FS="|"} {print $3}')
+
+                        result=$(zenity --info \
+                        --title="Welcome" \
+                        --text="Your friend: $fname $sname ,date: $bir " )
+                    </code></pre>
+                    </section>
+                    <section>
+                        <h3>Ex5 Сафиюлин Александр</h3>
+                        <a href="https://github.com/Chupakabra0" target="_blank">
+                            https://github.com/Chupakabra0
+                        </a>
+                        <pre style="white-space: pre-line;"><code>
+                            #!/bin/bash
+                            file_name=$(zenity --file-selection --title="Choose file (Choose your destiny)")
+                            properties=$(stat $file_name)
+
+                            result=$(zenity --info --title="File properties" --width=300 --height=150 \
+                            --text="File properties:\n $properties" --ok-label="Ok")
+                    </code></pre>
+                    </section>
+
+                    <section>
+                        <h3>Ex{} Евгений Булгаков</h3>
+                        <pre style="white-space: pre-line;"><code>
+                    #!/bin/bash 
+
+                    function FORM() { 
+                    local form=$(zenity --forms --title="Заполните форму" \ 
+                    --text="Сбор информации" \ 
+                    --separator="," \ 
+                    --ok-label=Отправить \ 
+                    --cancel-label=Закрыть \ 
+                    --add-entry="Имя:" \ 
+                    --add-entry="Фамилия:" \ 
+                    --add-entry="E-mail:" \ 
+                    --add-password="Ваш пароль (минимум 5-nь символов)" \ 
+                    --add-password="Повторите пароль" \ 
+                    --add-list="Ваше любимое Домашнее животное" --list-values="Кот|Собака|Попугай|Рыбы" ) 
+
+                    local name=$( echo $form | awk -F ',' '{print $1}' ) 
+                    local lastname=$( echo $form | awk -F ',' '{print $2}' ) 
+                    local email=$( echo $form | awk -F ',' '{print $3}' ) 
+                    local password1=$( echo $form | awk -F ',' '{print $4}' ) 
+                    local password2=$( echo $form | awk -F ',' '{print $5}' ) 
+                    local pets=$( echo $form | awk -F ',' '{print $6}' ) 
+
+                    if [[ ${#name} == 0 ]]; then 
+                        zenity --warning --text "Пожалуйста, заполните поле имени" 
+                        FORM 
+                        return 
+                    fi 
+
+                    if [[ ${#lastname} == 0 ]]; then 
+                        zenity --warning --text "Пожалуйста, заполните поле фамилии" 
+                        FORM 
+                        return 
+                    fi 
+
+                    if [[ ${#email} == 0 ]]; then 
+                        zenity --warning --text "Пожалуйста, заполните поле e-mail'а" 
+                        FORM
+                        return 
+                    fi 
+
+                    if [[ $password1 == $password2 ]]; then 
+
+                    if [[ ${#password1} == 0 ]]; then 
+                        zenity --warning --text "Пожалуйста, заполните поле пароля" 
+                        FORM 
+                        return 
+                    fi
+
+                    if [[ ${#password1} < 5 ]]; then 
+                        zenity --warning --text "В Вашем пароле менее 5-ти символов" 
+                        FORM 
+                        return 
+                    fi 
+
+                    else 
+                        zenity --warning --text "Ваши пароли не совпадают" 
+                        FORM 
+                        return 
+                    fi 
+
+                    percent=0; 
+
+                    for num in 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%; do 
+
+                    echo $percent 
+                    echo "# $num" 
+                    percent=$(($percent + 10)); 
+                    sleep 1 
+
+                    done | zenity --progress --title='Загрузка...' --no-cancel --auto-close --percentage=0    --width=80 --height=50 
+
+                    zenity --info --width=350 --height=150 --text "$lastname $name, мы знаем о Вас всё. 
+
+                    Ваш email - $email 
+
+                    Ваш пароль - $password1 
+
+                    Ваше любимое дом. жив. - $pets" 
+                    } 
+
+                    FORM 
+                    </code></pre>
+                    </section>
+                </section>
+                <section>
+                    Thanks for your attention :)<br>
+                    <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../js/libs/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                // Display controls in the bottom right corner
+                controls: true,
+                // Display a presentation progress bar
+                progress: true,
+                // Set default timing of 2 minutes per slide
+                defaultTiming: 120,
+                // Display the page number of the current slide
+                slideNumber: true,
+                // Push each slide change to the browser history
+                history: false,
+                // Enable keyboard shortcuts for navigation
+                keyboard: true,
+                // Enable the slide overview mode
+                overview: true,
+                // Vertical centering of slides
+                center: true,
+                // Enables touch navigation on devices with touch input
+                touch: true,
+                // Loop the presentation
+                loop: false,
+                // Change the presentation direction to be RTL
+                rtl: false,
+                // Randomizes the order of slides each time the presentation loads
+                shuffle: false,
+                // Turns fragments on and off globally
+                fragments: true,
+                // Flags if the presentation is running in an embedded mode,
+                // i.e. contained within a limited portion of the screen
+                embedded: false,
+                // Flags if we should show a help overlay when the questionmark
+                // key is pressed
+                help: true,
+                // Flags if speaker notes should be visible to all viewers
+                showNotes: false,
+                // Global override for autolaying embedded media (video/audio/iframe)
+                // - null: Media will only autoplay if data-autoplay is present
+                // - true: All media will autoplay, regardless of individual setting
+                // - false: No media will autoplay, regardless of individual setting
+                autoPlayMedia: null,
+                // Number of milliseconds between automatically proceeding to the
+                // next slide, disabled when set to 0, this value can be overwritten
+                // by using a data-autoslide attribute on your slides
+                autoSlide: 0,
+                // Stop auto-sliding after user input
+                autoSlideStoppable: true,
+                // Use this method for navigation when auto-sliding
+                autoSlideMethod: Reveal.navigateNext,
+                // Enable slide navigation via mouse wheel
+                mouseWheel: false,
+                // Hides the address bar on mobile devices
+                hideAddressBar: true,
+                // Opens links in an iframe preview overlay
+                previewLinks: false,
+                // Transition style
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Transition speed
+                transitionSpeed: 'default', // default/fast/slow
+
+                // Transition style for full page slide backgrounds
+                backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                // Number of slides away from the current that are visible
+                viewDistance: 3,
+                // Parallax background image
+                //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                // Parallax background size
+                //parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
+
+                // Number of pixels to move the parallax background per slide
+                // - Calculated automatically unless specified
+                // - Set to 0 to disable movement along an axis
+                parallaxBackgroundHorizontal: null,
+                parallaxBackgroundVertical: null,
+                // The display mode that will be used to show slides
+                display: 'block',
+
+                dependencies: [
+                    {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }}
+                ]
+            });
+        </script>
+        <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
+        <script>
+            document.body.onload = function () {
+                //iframeWP.iframeWPInit("MainPresentation");
+
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+                slideNumberFieldDisplay();
+            };
+            Reveal.addEventListener('BirdAI', function () {
+                iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
+            }, false);
+            // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
+            Reveal.addEventListener('slidechanged', function (event) {
+                slideNumberFieldDisplay();
+            });
+            function slideNumberFieldDisplay() {
+                var slideNumberField = document.querySelector('.reveal .slide-number'),
+                        slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
+                        interval;
+                // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
+                interval = window.setInterval(
+                        function () {
+                            slideNumberField.innerHTML = slideNumber;
+                            clearInterval(interval);
+                        }, 10);
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
