@@ -1,3 +1,10 @@
+
+
+VBoxVGA,VMSVGA,VBoxSVGA:https://superuser.com/questions/1403123/what-are-differences-between-vboxvga-vmsvga-and-vboxsvga-in-virtualbox
+
+
+
+
 SomePlan
 
 1,2. 
