@@ -24,7 +24,7 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 > https://ravesli.com/uroki-po-linux/
 ## Video Lessons :
 > https://www.youtube.com/watch?v=ROjZy1WbCIA  
-> https://www.youtube.com/watch?v=fE1VG1gpXjU&list=PL0lO_mIqDDFUwVWvVitxG2oXA6a-Nq-Qq&index=1  
+> https://www.youtube.com/watch?v=fE1VG1gpXjU&list=PL0lO_mIqDDFUwVWvVitxG2oXA6a-Nq-Qq  
 
 ## Links
 > alternativeto: https://alternativeto.net/  
