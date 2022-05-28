@@ -18,6 +18,7 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 > https://www.osboxes.org/
 ### Additional
 > Rufus: https://rufus.ie/  
+> Other: https://www.pendrivelinux.com/category/bootable-usb-creator/  
 	
 ## Books :books:
 > https://ravesli.com/uroki-po-linux/
