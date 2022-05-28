@@ -54,7 +54,7 @@
 | Юдин Андрей           | +(100) | +(100) | +(100) | +(100) | 100%         | 100%     | ++        | 								LinuxMaster  (2B) X_4ndry - Multi - while (glfwGetKey(Win1->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(Win2->getGLFWHandle(), GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(Win1->getGLFWHandle()) == 0)
 | Патика Данила         | +(100) | +(100) | +(100) | +(100) | 100%         | 100%     | ++        |	LoneSamurai				EnigmaMaster (Sequence3)	EBO + Texures + Sampling + Blur
 | Александр Новиков     |        |        |        |        | 80%          |          | ++        | 0_- - ^-^
-| Юлия Олийник          |        |        |        |        | 95%          |          | +         | Python
+| Юлія Олійник          |        |        |        |        | 95%          |          | +         | Python
 | Репіна Марія          | +(80)  | +(80)  | +(100) | +(100) | 100%         | 93%      | +         |
 | Сульська Ліна         | +(100) | +(100) |        |        | 95%          | ?        | +++++     | Was russ server bug :) Херсон - DownLoad Report _Володимирівна_?
 | Русанов Александр     |        |        |        |        | 8t+0%        |          | +         |
