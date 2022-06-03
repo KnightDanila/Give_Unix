@@ -1,0 +1,8 @@
+file https://ravesli.com/bazovye-komandy-v-linux-for-beginners/#toc-5
+
+
+Pascal - ASM
+C++, C#, Java
+JavaScript
+Python Kotlin Swift
+
