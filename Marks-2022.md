@@ -22,6 +22,7 @@
 	Unbelievable!!!
 	Craftable Minecraftable
 	Brilliant!!!
+	Flawless work :)
 	
 	Thanks for your persistence and curiosity (=
 	
@@ -69,7 +70,7 @@
 # ПА-19-2 (1) 
 | Name             | 1      | 2      | 3      | 4      | 32 scores    | __100%__ | note |
 | ---------------- | ------ | ------ | ------ | ------ | ------------ | -------- | ---- |
-| Сергей Каруна    | +(100) | +(100) |        |        | 100%         | ?100%    | +    | - GRAY					EnigmaMaster+	(Umbrella)
+| Сергей Каруна    | +(100) | +(100) | +      |        | 100%         | ?100%    | +    | - GRAY					EnigmaMaster+	(Umbrella)
 | Егор Ильяшенко   | +(100) | +(100) | +(100) | +(100) | 100%         | 100%     | +    | - git vitall				EnigmaMaster-	(Bulb)
 | Максим Блажко    | +(100) | +(100) | +(100) | +(100) | 100%         | 100%     | +    | MOB						EnigmaMaster-	(SquareOfCircle)
 | Ярослав Горшков  | +(100) | +(100) | +(100) | +(100) | 100%         | 100%     | +    |							EnigmaMaster+++ (Hex)
