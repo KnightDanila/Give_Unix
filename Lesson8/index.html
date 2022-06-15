@@ -14,7 +14,8 @@ and open the template in the editor.
         <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
         <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
         <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
-
+        <script src="../js/libs/highlight.js/highlight.min.js"></script>
+        
         <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
         <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
 
@@ -176,6 +177,70 @@ and open the template in the editor.
                     </section>
 
 
+                </section>
+                <section>
+                    <section>
+                        <h3>Code Jems and Pearls</h3>
+                    </section>
+
+                    <section>
+                        <h3>Python</h3>
+                        <br>++ Operator and Python
+                        <br>https://stackoverflow.com/questions/2632677/python-integer-incrementing-with
+                        <br>Yes. The ++ operator is not available in Python. Guido doesn't like these operators.
+                    </section>
+
+                    <section>
+                        <h3>C++, Java ...</h3>
+                        <pre><code data-trim data-noescape>
+                        string coolFun(someError){
+                            switch (someError) {
+                                case 1:
+                                    return "Unexpected error";
+                                case 13:
+                                    return "The file version is not supported.";
+                                case 23:
+                                    return "Error opening file";
+                                case 42:
+                                    return "File is broken";
+                            |
+                            return null;
+                        }
+                        </code></pre>
+                    </section>
+                    
+                    <section>
+                        <h3>C++</h3>
+                        <pre style="white-space: pre-line;"><code>
+                        void genMatrix(float**& matrix, int m, int n) {
+
+                            matrix = new float* [m];
+                            for (int i = 0; i < m; i++) {
+                                    matrix[i] = new float[n];
+                                    for (int j = 0; j < n; j++){
+                                            matrix[i][j] = genRandFloat();
+                                    }
+                                    cout << endl;
+                            }
+                        }
+                        
+                        ////////////////////// VS
+
+                        void genMatrix(float** matrix, int m, int n) {
+
+                            matrix = new float* [m];
+                            for (int i = 0; i < m; i++) {
+                                    matrix[i] = new float[n];
+                                    for (int j = 0; j < n; j++){
+                                            matrix[i][j] = genRandFloat();
+                                    }
+                                    cout << endl;
+                            }
+                        }
+
+                       </code></pre>
+                        
+                    </section>
                 </section>
                 <section>
                     <section>
