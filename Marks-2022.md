@@ -7,7 +7,10 @@
 <!---
 	素晴らしい
 	優れた
-	
+	nailed it! 
+	Supercalifragilisticexpialidocious
+	You nailed it! Good job ^-^
+	Nice job ^-^
 	Great job ^-^
 	Good job ^-^
 	Well done!
@@ -25,6 +28,7 @@
 	Brilliant!!!
 	Flawless work :)
 	
+	
 	Thanks for your persistence and curiosity (=
 	
 	90 A
@@ -32,14 +36,7 @@
 	75 C
 	64 D
 	60 E
-	
-	
-	
-	О, ещё такой вопрос, тут Василий Евгеньевич мне вчера написал:
 
-"пособие утвердили на ученом совете факультета и его уже можно отправлять в репозиторий ДНУ."
-
-Попросил у Вас узнать, как как направить пособие в репозиторий
 -->+
 
 
