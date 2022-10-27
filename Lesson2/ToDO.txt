@@ -1,0 +1,10 @@
+Add OS Bit
+
+	int a;
+	cout << sizeof(a) << endl;
+	// 4 byte - 8 bit * 4 = 32 bit
+	int* ap;
+	cout << sizeof(ap) << endl;
+	// 8 byte - 8 bit * 8 = 64 bit
+
+	Clock 1970
