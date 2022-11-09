@@ -38,7 +38,7 @@
 	60 E
 
 	https://teams.microsoft.com/_?tenantId=830818fc-364e-47d9-9ecf-3c713418c728#/school/FileBrowserTabApp/%D0%9E%D0%B1%D1%89%D0%B8%D0%B9?threadId=19:a9577181dfca4a069ca83f3d7063a3dd@thread.tacv2&ctx=channel
-	https://teams.microsoft.com/_?tenantId=830818fc-364e-47d9-9ecf-3c713418c728#/apps/1c256a65-83a6-4b5c-9ccf-78f8afb6f1e8/sections/MyNotebook
+	
 -->
 
 
@@ -49,7 +49,9 @@
 | Name                  | +      | +      | +      | +...   | 32+          | 130      | +++++++++ |
 | Полуструєв Владислав	| +(100) | +(100) | +(100) | 		| 	           | 	      | +         |
 | Вілков Владислав		| +(100) | +(100) | 	   | 		| 	           | 	      | +         |
-
+| Станілевич Михайло	| +(100) |  | 	   | 		| 	           | 	      | +         |
+| Іваниця Дмитро		| +(100) |  | 	   | 		| 	           | 	      | +         |
+| Бугайова Анна			| +(100) |  | 	   | 		| 	           | 	      | +         |
 
 
 # ПА-20-1 (1) 
