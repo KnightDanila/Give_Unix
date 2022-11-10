@@ -35,3 +35,9 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 Mask RCNN - COCO - instance segmentation: https://www.youtube.com/watch?v=OOT3UIXZztE  
 
 <img src=/favicon.ico width="50px" style="margin-top:-50px">
+
+## Credits. Improved and approved by:
+Nikolay Nikolaevich Yasko - He taught me Linux at the university  
+Yehor Panasenko - Mentored my first lessons 😆 https://github.com/gaurapanasenko  
+Andrii Derhach -  
+Roman - https://github.com/kvirikroma  
