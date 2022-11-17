@@ -2,6 +2,3 @@ https://en.wikipedia.org/wiki/Newline
 
 CR+LF
 LF
-
-
-update upgrade
