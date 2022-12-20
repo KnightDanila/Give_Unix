@@ -1,5 +1,4 @@
-# Unix & Linux OS - Lectures, Presentations and Labs 
-<img src=/favicon_forReadme.ico width="50px" style="margin-top:-50px">
+# Unix & Linux OS - Lectures, Presentations and Labs <img src=/favicon_forReadme.ico width="50px" style="margin-top:-50px">
 
 Open Source Operating Systems Course  
 Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
