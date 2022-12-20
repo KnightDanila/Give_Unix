@@ -1,0 +1,9 @@
+Majaro++++
+Kali++++
+Debian+++
+Arch++
+Linux mint+
+
+
+Kali, Debian 300 mb <= RAM
+Ubuntu, Xubuntu, Lubuntu - 1024 mb <= RAM

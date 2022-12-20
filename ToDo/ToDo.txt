@@ -32,6 +32,8 @@ youtube-dl
 git
 ffmpeg
 waifu
+bash - bashful
+file type determ
 
 7.
 Линукс: Встановлення компіляторів та IDE
