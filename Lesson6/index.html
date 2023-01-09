@@ -438,15 +438,127 @@ and open the template in the editor.
                     FORM 
                     </code></pre>
                     </section>
+
+                    <section>
+                        <h3>Ex - Vlad Polustruyev</h3>
+                        <pre style="white-space: pre-line;"><code>
+                            #/bin/bash
+
+                            # Series or Parallel
+                            # последовательно или параллельно
+                            Condition1="Series" # последовательно
+                            Condition2="Parallel" # параллельно
+
+                            form=$(zenity --forms --title="Solve capacity" \
+                                    --text="Enter V and A of Accum" --separator="," \
+                                    --add-entry="Voltage: " \
+                                    --add-entry="Amper: " \
+                                    --add-entry="quantity: " \
+                                    --add-list="Path of Electical chain" \
+                                    --list-values="${Condition1}|${Condition2}")
+
+                            V=$(echo $form | awk 'BEGIN {FS=","}{print $1}')
+                            A=$(echo $form | awk 'BEGIN {FS=","}{print $2}')
+                            Q=$(echo $form | awk 'BEGIN {FS=","}{print $3}')
+                            P=$(echo $form | awk 'BEGIN {FS=","}{print $4}')
+
+                            echo $P, $V, $A, $Q
+
+                            if [[ $P == $Condition1 ]]; then
+                                    echo ${Condition1}
+                                    inf=$(echo $V*$Q | bc)
+                                    result=$(zenity --info --title="Information about accum" --text="Volt = $inf, Amper = $A, Quant = $Q, Path = $P")
+                            fi
+
+                            if [[ $P == $Condition2 ]]; then
+                                    echo ${Condition2}
+                                    inf=$(echo $A*$Q | bc)
+                                    result=$(zenity --info --title="Information about accum" --text="Volt = $V, Amper = $inf, Quant = $Q, Path = $P")
+                            fi
+                    </code></pre>
+                    </section>
+
+                    <section>
+                        <h3>Ex - Levchenko Yevgeniy</h3>
+                        <pre style="white-space: pre-line;"><code>
+                        #!/usr/bin/env bash 
+
+                        while : ; do 
+                            ageCalc=$(zenity --forms --title="Age Calculator" \ 
+                               --add-entry="First Name" \ 
+                               --add-entry="Last Name" \ 
+                               --add-calendar="Birth Date: ") 
+
+                            if [[ "$?" != "0" ]] 
+                            then 
+                                break 
+                            fi 
+
+                            firstName="$(echo "$ageCalc"| cut -d '|' -f 1)" 
+                            lastName="$(echo "$ageCalc"| cut -d '|' -f 2)" 
+                            birthDateStr="$(echo "$ageCalc"| cut -d '|' -f 3)" 
+                            epoch_time=$(date -j -f '%d.%m.%Y' "$birthDateStr" +'%s') 
+                            birthDate=$(date -j -r "$epoch_time" +%d.%m.%Y) 
+
+                            birthDay="$(echo "$birthDate"| cut -d '.' -f 1)" 
+                            birthMonth="$(echo "$birthDate"| cut -d '.' -f 2)" 
+                            birthYear="$(echo "$birthDate"| cut -d '.' -f 3)" 
+
+                            birthDay=$((10#$birthDay)) 
+                            birthMonth=$((10#$birthMonth)) 
+
+                            currentDate=$(date +%d.%m.%Y) 
+                            currentDay="$(echo "$currentDate"| cut -d '.' -f 1)" 
+                            currentMonth="$(echo "$currentDate"| cut -d '.' -f 2)" 
+                            currentYear="$(echo "$currentDate"| cut -d '.' -f 3)" 
+
+                            currentDay=$((10#$currentDay)) 
+                            currentMonth=$((10#$currentMonth)) 
+
+                            month=(31 28 31 30 31 30 31 31 30 31 30 31) 
+
+                            if [ $birthDay -gt $currentDay ] 
+                            then 
+                                currentDay=$((10#$currentDay + month[$birthMonth - 1])) 
+                                currentMonth=$((currentMonth - 1)) 
+                            fi 
+
+                            if [ $birthMonth -gt $currentMonth ] 
+                            then 
+                                currentYear=$(($currentYear - 1)) 
+                                currentMonth=$(($currentMonth + 12)) 
+                            fi 
+
+                            calculatedDays=$((currentDay - birthDay)) 
+                            calculatedMonths=$((currentMonth - birthMonth)) 
+                            calculatedYears=$((currentYear - birthYear)) 
+
+                            name="$firstName $lastName" 
+                            if [ -z $firstName ] && [ -z $lastName ] 
+                            then 
+                                name="stranger" 
+                            fi 
+
+                            if [ 0 -gt $calculatedYears ] 
+                            then 
+                                zenity --info --text="Hi, ${name}. You have not born yet!" --width=500 
+                            else 
+                                zenity --info --text="Hi, ${name}. Your present age is ${calculatedYears:-0} years, ${calculatedMonths:-0} months, ${calculatedDays:-0} days" --width=500 
+                            fi 
+
+                        done 
+                    </code></pre>
+                    </section>
+                    
                 </section>
-                
+
                 <section>
                     <h3>Links:</h3>
                     https://ryanstutorials.net/bash-scripting-tutorial/bash-input.php
                     <br>
                     https://linuxhint.com/prompt-for-input-bash/
                 </section>
-                
+
                 <section>
                     Thanks for your attention :)<br>
                     <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
