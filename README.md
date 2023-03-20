@@ -40,6 +40,6 @@ Mask RCNN - COCO - instance segmentation: https://www.youtube.com/watch?v=OOT3UI
 ## Credits. Improved and approved by:
 Nikolay Nikolaevich Yasko - He taught me Linux at the university  
 Yehor Panasenko - Mentored my first lessons 😆 https://github.com/gaurapanasenko  
-Anna Loban (aka AlexValder) - gives me new ideas and pictures for presentation - https://github.com/AlexValder 🌝
+Anna Loban (aka AlexValder) - shares new ideas and pictures for presentation with me 🙂 - https://github.com/AlexValder   
 Andrii Derhach - https://github.com/pacifi5t  
 Roman - https://github.com/kvirikroma  
