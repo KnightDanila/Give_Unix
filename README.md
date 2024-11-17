@@ -32,7 +32,8 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 > CC: https://creativecommons.org/  
 > lively wallpaper: https://rocksdanister.github.io/lively/  
 > rainmeter: https://www.rainmeter.net/
-
+### OpenSource Games
+> DustRacing2D: https://github.com/juzzlin/DustRacing2D
 Mask RCNN - COCO - instance segmentation: https://www.youtube.com/watch?v=OOT3UIXZztE  
 
 <img src=/favicon.ico width="50px" style="margin-top:-50px">
