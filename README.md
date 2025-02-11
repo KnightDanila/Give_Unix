@@ -20,6 +20,8 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 ### Additional
 > Rufus: https://rufus.ie/  
 > Other: https://www.pendrivelinux.com/category/bootable-usb-creator/  
+### Hardware testing 💻
+> Core Temp: https://www.alcpu.com/CoreTemp/
 	
 ## Books :books:
 > https://ravesli.com/uroki-po-linux/
