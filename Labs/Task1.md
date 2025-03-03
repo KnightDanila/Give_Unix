@@ -30,12 +30,12 @@ HarryJamesPotter/HermioneJeanGranger
 	* c. GPU-Z,  
 	* d. Speccy (Win) (AIDA64), HARDINFO (Linux),  
 	* e. CrystalDiskInfo;  
-	* f. CoreTemp (https://www.alcpu.com/CoreTemp/)
+	* f. CoreTemp (https://www.alcpu.com/CoreTemp/)  
 	**Benchmark:**
 	* f. CrystalDiskMark (Win), KDiskMark (Linux),  
 	* g. Furmark, Heaven Benchmark, memtest  
 	**Monitoring:**
-	* MSI Afterburner (Win), MangoHud (Linux) 
+	* MSI Afterburner (Win), MangoHud (Linux)  
 	(https://github.com/flightlessmango/MangoHud)  
 	* Або будь-яку іншу
 
