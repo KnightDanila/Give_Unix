@@ -1,1 +1,8 @@
 openjdk 8
+
+https://opengameart.org/
+
+https://jmeubank.github.io/tdm-gcc/
+
+Amazon Corretto OpenJDK
+https://aws.amazon.com/ru/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc
