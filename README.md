@@ -13,8 +13,8 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 > https://www.qemu.org/  
 > https://github.com/utmapp/UTM
 ### Repair OS
-> SystemRescue: https://www.system-rescue.org/
-> boot-repair-disk: http://sourceforge.net/p/boot-repair-cd/home
+> SystemRescue: https://www.system-rescue.org/  
+> boot-repair-disk: http://sourceforge.net/p/boot-repair-cd/home  
 ### Linux Distributions 
 > Ubuntu: https://ubuntu.com/download  
 > ParrotOS: https://www.parrotsec.org/  
