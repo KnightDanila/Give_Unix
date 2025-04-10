@@ -24,7 +24,8 @@ Made for DNU - Faculty of Applied Mathematics - http://fpm.dnu.dp.ua/
 > Rufus: https://rufus.ie/  
 > Other: https://www.pendrivelinux.com/category/bootable-usb-creator/  
 ### Hardware testing 💻
-> Core Temp: https://www.alcpu.com/CoreTemp/
+> Core Temp: https://www.alcpu.com/CoreTemp/  
+> h2testw - USB tester: https://h2testw.org/  
 	
 ## Books :books:
 > https://ravesli.com/uroki-po-linux/
